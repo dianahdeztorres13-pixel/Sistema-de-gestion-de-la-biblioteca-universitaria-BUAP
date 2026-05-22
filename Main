@@ -1,0 +1,19 @@
+import sys
+import os
+
+# agregar el directorio raiz al path para que funcionen las importaciones
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from clases.sistema import Sistema
+from interfaces.ventana_login import VentanaLogin
+
+def main():
+    # inicializar el sistema (carga datos)
+    sistema = Sistema()
+
+    # crear y arrancar la ventana principal
+    app = VentanaLogin(sistema)
+    app.mainloop()
+
+if __name__ == "__main__":
+    main()
