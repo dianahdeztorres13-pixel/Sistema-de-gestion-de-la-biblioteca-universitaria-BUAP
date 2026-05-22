@@ -1,0 +1,25 @@
+# Cache de Python (autogenerado, no se sube)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+ENV/
+
+# Configuracion de editores / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Codigos QR generados en runtime (opcional: borra esta linea si quieres subirlos)
+datos/qr_*.png
