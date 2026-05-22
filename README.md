@@ -17,7 +17,6 @@ Sistema de escritorio desarrollado en Python con interfaz gráfica (Tkinter) par
 biblioteca_buap/
 │
 ├── main.py                    # Punto de entrada del programa
-├── requirements.txt           # Dependencias
 ├── README.md
 │
 ├── clases/
@@ -42,7 +41,11 @@ biblioteca_buap/
 │   ├── ventana_perfil.py      # Editar perfil personal
 │   ├── ventana_ver_qr.py      # Ver/generar código QR personal
 │   └── ventana_admin.py       # Panel de administración
+│   └── ventana_ml.py 
 │
+└── ML/ 
+│   ├── __init__.py
+│   ├── ml_manager.py
 └── datos/                     # Carpeta generada automáticamente
     ├── usuarios.json
     ├── libros.json
